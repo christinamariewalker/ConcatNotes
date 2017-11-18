@@ -182,3 +182,28 @@ input[type=submit]:hover
     color: #eafaea;     
     background-color: #004d00; 
 }
+
+/**************START PROFHOME.CSS PORTION***********/ 
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    margin-top: 20px;
+}
+
+.vertical-menu a {
+    background-color: #6fbf00; /* Grey background color */
+    color: white; /* white text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+   /* background-color: #4CAF50; /* Add a green color to the "active/current" link */
+   background-color: black; 
+   color: white;
+}
