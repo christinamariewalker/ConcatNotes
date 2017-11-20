@@ -6,7 +6,7 @@ html, body
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     color: #000;
     -webkit-font-smoothing: antialiased;
-    background-color: white;
+    background-color: black;
 }
 ::-webkit-scrollbar 
 {
